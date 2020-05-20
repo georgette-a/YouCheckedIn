@@ -1,11 +1,11 @@
 <?php
 
-    define("SERVER", "ec2-18-235-20-228.compute-1.amazonaws.com");
+    define("SERVER", "s0znzigqvfehvff5.cbetxkdyhwsb.us-east-1.rds.amazonaws.com");
     
-    define("USERNAME", "zdwvppwltrwyvo");
+    define("USERNAME", "zorn0cwwm0tsahkr");
     
-    define("PASSWORD", "182c06316e4cc9c550b380e0b8a789e1d2fdcfcbe4a7c6edeca88810200eae6b");
+    define("PASSWORD", "kb4iwl8g6c0712ik");
     
-    define("DATABASE", "d4k8oqgpp097iv");
+    define("DATABASE", "dg5b0hm3zyggu6xy");
 
 ?>
