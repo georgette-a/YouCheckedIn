@@ -13,7 +13,7 @@ else{
 //create instance of the database
 $db = mysqli_connect(SERVER, USERNAME, PASSWORD, DATABASE);
 //run sql to query the rooms
-$sql = "SELECT * FROM `lecturehalls`";
+$sql = "SELECT * FROM `lecturehalls_youcheckedin`";
 //read the results of the room into the database
 $result1 = mysqli_query($db, $sql);
 // $result2 = mysqli_query($db, $sql);
@@ -95,12 +95,7 @@ while($row1 = mysqli_fetch_array($result1)){
                             <p>View Rooms</p>
                         </a>
                     </li>
-                    <li>
-                        <a class="nav-link" href="./editroom.php">
-                            <i class="nc-icon nc-settings-tool-66"></i>
-                            <p>Edit Rooms</p>
-                        </a>
-                    </li>
+                    
                     <li>
                         <a class="nav-link" href="./manageroom.php">
                             <i class="nc-icon nc-preferences-circle-rotate"></i>
