@@ -7,7 +7,7 @@ require('session.php');
 if(isset($_POST['editRoom'])){
     $adminID = $_SESSION['admin_id'];
     $adminName = $_SESSION['name'];
-    $currentroom = $_POST['oldRoom']
+    $currentroom = $_POST['oldRoom'];
     $roomName = $_POST['roomName'];
     $lectureHall = $_POST['LHall'];
     $roomCapacity = $_POST['roomCapacity'];
